@@ -8,8 +8,8 @@ Si vous souhaitez que l'agent ssh-agent gère vos clés, exécutez la commande s
 
 ```
 eval $(ssh-agent)
-
 ```
+
 Une fois que le programme a démarré la commande ssh-add pour ajouter votre clé publique à l'agent, 
 l'utilitaire ssh-add recherche les noms de clé par défaut, dont id_rsa est un, et les ajoute à l'agent ssh-agent. 
 Après avoir entré votre mot de passe, la clé "déverrouillée" est stockée avec ssh-agent et peut être utilisée pour s'authentifier auprès d'autres serveurs.
