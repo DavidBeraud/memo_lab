@@ -84,7 +84,7 @@ Téléchargez un modèle à partir de Github à l’adresse kassambara/wordpress
 ```
 your_domain_name=www.example.com
 cd $web_dir
-git clone https://github.com/kassambara/wordpress-docker-compose $your_domain_name
+git clone https://github.com/DavidBeraud/wordpress-docker-compose $your_domain_name
 ```
 
 # Changer le nom du fichier docker-compose-onlinehost
