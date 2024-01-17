@@ -13,14 +13,14 @@ Directives Makefile pour l’automatisation.
 
 
 # Prérequis
-Lisez ceci : WordPress Local Development Using Docker Compose
-Lisez aussi ceci : Comment héberger plusieurs sites web HTTPS sur un seul serveur
-Git, docker et docker-compose sont installés sur votre serveur
-Votre hôte doit être accessible au public sur les deux ports 80 and 443. Vérifiez les règles de votre pare-feu pour vous assurer que ces ports sont ouverts.
-[Créer un répertoire de sites web et définir les autorisations appropriées] (https://www.datanovia.com/en/fr/lessons/comment-creer-un-repertoire-de-sites-web-avec-les-autorisations-appropriees/). Dans ce tutoriel, nous supposerons que le répertoire Web se trouve à /srv/www
-Créer des domaines et sous-domaines:
-Un pour votre site WordPress: www.example.com
-Un pour accéder à votre base de données wordpress via phpMyadmin: sql.example.com
+* Lisez ceci : WordPress Local Development Using Docker Compose
+* Lisez aussi ceci : Comment héberger plusieurs sites web HTTPS sur un seul serveur
+* Git, docker et docker-compose sont installés sur votre serveur
+* Votre hôte doit être accessible au public sur les deux ports 80 and 443. Vérifiez les règles de votre pare-feu pour vous assurer que ces ports sont ouverts.
+* Dans ce tutoriel, nous supposerons que le répertoire Web se trouve à /srv/www
+* Créer des domaines et sous-domaines:
+* Un pour votre site WordPress: www.example.com
+* Un pour accéder à votre base de données wordpress via phpMyadmin: sql.example.com
 
 
 # Étape 1. Créer des répertoires de sites web**
